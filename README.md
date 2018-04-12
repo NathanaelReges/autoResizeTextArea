@@ -1,6 +1,7 @@
 # autoResizeTextArea
 
-const  **module** =  autoResizeTextArea({**ele**, **minHeight**, **maxHeight**})<br/>
+const  **module** =  autoResizeTextArea({**ele**, **minHeight**, **maxHeight**})  
+<br/>
 &ensp;&ensp;**ele** &ensp; The textarea element.  
 &ensp;&ensp;**minHeight** &ensp; The height won't get smaller than this.  
  &ensp;&ensp;**maxHeight** &ensp; The height won't get bigger than this.  
