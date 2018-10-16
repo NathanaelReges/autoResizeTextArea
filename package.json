@@ -1,0 +1,32 @@
+{
+  "name": "autoresizetextarea",
+  "version": "1.0.0",
+  "description": "Auto Rresizes your Textarea",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.m.js",
+  "source": "src/index.js",
+  "scripts": {
+    "build": "microbundle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanaelreges/autoResizeTextArea.git"
+  },
+  "keywords": [
+    "auto-resize",
+    "textarea"
+  ],
+  "author": "Nathanael Reges Sousa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathanaelreges/autoResizeTextArea/issues"
+  },
+  "homepage": "https://github.com/nathanaelreges/autoResizeTextArea#readme",
+  "devDependencies": {
+    "microbundle": "^0.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

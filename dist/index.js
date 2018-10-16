@@ -1,0 +1,2 @@
+module.exports=function(e){var t=e.ele,n=e.minHeight,o=e.maxHeight,i={},l=0;return t.style.overflow="hidden",t.addEventListener("keydown",r),i.forceTest=r,i.reset=function(){t.style.height=n+"px"},i;function r(){requestAnimationFrame(function(){var e=!1;i.onTypedNewLine&&0!=t.scrollTop&&(e=!0),t.style.height="10px",t.style.marginBottom=l-10+"px";var r=t.scrollHeight;n&&r<n&&(r=n),o&&r>o&&(r=o),t.style.height=r+"px",t.style.marginBottom="",l=r,e&&i.onTypedNewLine(),i.callBack&&i.callBack()})}};
+//# sourceMappingURL=index.js.map

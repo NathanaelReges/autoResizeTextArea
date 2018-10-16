@@ -1,4 +1,4 @@
-scripts['autoResizeTextArea.js'] = function autoResizeTextArea ({ele, minHeight, maxHeight}) {
+export default function autoResizeTextArea ({ele, minHeight, maxHeight}) {
 
     const module = {}
     let lastHeight = 0
