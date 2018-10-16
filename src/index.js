@@ -4,7 +4,7 @@ export default function autoResizeTextArea ({ele, minHeight, maxHeight}) {
     let lastHeight = 0
     
     //If the text area overflow isn't hidden it won't work.
-    ele.style.overflow = 'hidden'
+    //ele.style.overflow = 'hidden'
 
     ele.addEventListener('keydown', test)
 

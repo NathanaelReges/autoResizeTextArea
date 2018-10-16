@@ -1,5 +1,5 @@
 {
-  "name": "autoresizetextarea",
+  "name": "@nathanaelregesdev/autoresizetextarea",
   "version": "1.0.0",
   "description": "Auto Rresizes your Textarea",
   "main": "dist/index.js",
